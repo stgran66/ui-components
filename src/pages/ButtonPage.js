@@ -1,6 +1,8 @@
 import Button from '../components/Button';
 import { GoBell, GoCloudDownload, GoDatabase } from 'react-icons/go';
 
+const buttonTypes = ['primary', 'secondary', 'success', 'warning', 'danger'];
+
 function ButtonPage() {
   const handleClick = () => {};
 
